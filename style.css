@@ -26,7 +26,7 @@ img{
     background: var(--main-color);
 }
 header{
-    background: var(--main-color);
+    background: #7f8381;
     position: fixed;
     width:100%;
     top: 0;
