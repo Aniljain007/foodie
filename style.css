@@ -26,6 +26,7 @@ img{
     background: var(--main-color);
 }
 header{
+    background: var(--main-color);
     position: fixed;
     width:100%;
     top: 0;
@@ -79,6 +80,7 @@ header.active  .navbar a{
     display: none;
 }
 .home{
+    padding-top: 60px;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -362,6 +364,11 @@ form .btn:hover{
     section{
         padding: 50px 4%;
     }
+}
+@media(max-width: 768px){
+   .home {
+    margin-top: -250px;
+   }
 }
 @media(max-width: 991px){
     header{
